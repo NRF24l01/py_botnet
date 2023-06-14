@@ -2,4 +2,5 @@ venv
 .idea
 
 client/completed_tasks.json
-logs
+server/logs
+server/data.json.example

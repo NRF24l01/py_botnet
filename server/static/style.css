@@ -1,0 +1,85 @@
+/* Дополнительные стили для масштабирования на весь экран */
+html{
+    height: 100%;
+}
+
+.full-height {
+    min-height: 100vh;
+}
+    /* Стили для body */
+body {
+    height: 100%;
+    background-color: #f2f2f2;
+    color: #212121;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Темная тема (Dracula) */
+body.dracula {
+    background-color: #3e4253;
+    color: #f8f8f2;
+}
+
+/* Стили для полей выбора и кнопки */
+select,
+.btn {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+/* Стили для поля ввода кода */
+#code {
+    height: 300px;
+    background-color: #f8f8f8; /* Цвет поля ввода кода */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: monospace;
+}
+
+/* Стили для поля выбора на темной теме */
+body.dracula select {
+    background-color: #44475a;
+    color: #f8f8f2;
+}
+
+/* Стили для поля выбора на светлой теме */
+body.default select {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Стили для текста с подписями */
+body.dracula .label-text {
+    color: #f8f8f2;
+}
+
+/* Стили для текста на светлой теме */
+body.default .label-text {
+    color: #333;
+}
+
+body.dracula .btn-primary {
+    background-color: #333;
+    color: #f8f8f2;
+}
+
+body.default .btn-primary {
+    background-color: #f8f8f2;
+    color: #333;
+}
+
+body.default .table-custr {
+    background-color: #f8f8f2;
+    color: #3c4054;
+}
+
+body.dracula .table-custr {
+    background-color: #3c4054;
+    color: #f8f8f2;
+}
+
+.table-custr th,
+.table-custr td {
+    border: 1px solid #373d5d;
+}
